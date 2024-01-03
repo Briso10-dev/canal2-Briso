@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap&subset=hebrew');
+
+:root {
+    --primary_color: #618264;
+    --active_color: #79AC78;
+    --font-inter: 'Inter', sans-serif;
+    --font-IBM: 'IBM Plex Sans Hebrew', sans-serif;
+    --background-nav: #000E01;
+    --color-textside: #443434;
+}
+header {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header button {
+    width: 88px;
+    height: 20px;
+    top: 24px;
+    left: 58px;
+    font-family: var(--font-inter);
+    background: var(--primary-color);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #FFFFFF;
+    border: none;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    height: 100%;
+    width: 50rem;
+}
+
+header ul a {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--background-nav);
+}
+
+.active {
+    /* text-decoration: underline; */
+    border-bottom: .2rem solid var(--active_color);
+    color: var(--active_color);
+}
+
+.blog2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog2 img {
+    padding: 30px;
+}
+
+.title {
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    text-align: center;
+    position: static;
+}
+
+.text {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.fmt-crime {
+    text-align: center;
+}
+
+.crime {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.program {
+    text-align: center;
+}
+
+.canal-matin {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.blog3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog3 img {
+    padding: 40px;
+}
+
+.texts {
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    text-align: center;
+    position: static;
+}
+
+.comments {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+
+/* REtouche des Imgages*/
+header .logo img {
+    width: 103px;
+    height: 69px;
+    top: 20px;
+    left: 65px
+}
+
+.combat {
+    width: 840.64px;
+    height: 622px;
+    top: 157px;
+    left: 65px;
+    border-radius: 20px;
+}
+
+.aside {
+    width: 235px;
+    height: 150px;
+    top: 424px;
+    left: 970px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 5px;
+}
+
+.enfants2 {
+    width: 343px;
+    height: 353px;
+    top: 913px;
+    left: 64px;
+    border-radius: 10px;
+}
+
+.Biya {
+    width: 339px;
+    height: 350px;
+    top: 916px;
+    left: 586px;
+    border-radius: 10px;
+}
+.Abou {
+    width: 340px;
+    height: 350px;
+    top: 916px;
+    left: 1099px;
+    border-radius: 10px;
+}
+.crime {
+    text-align: center;
+    font-family: IBM Plex Sans Hebrew;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.matin {
+    width: 718px;
+    height: 471px;
+    top: 2539px;
+    left: 65px;
+    border-radius: 20px;
+}
+.image1 {
+    width: 320px;
+    height: 197px;
+    top: 3265px;
+    left: 84px;
+}
+
+.image2 {
+    width: 340px;
+    height: 350px;
+    top: 3189px;
+    left: 593px;
+    border-radius: 10px;
+}
+.image3 {
+    width: 340px;
+    height: 350px;
+    top: 3189px;
+    left: 1106px;
+    border-radius: 10px;
+}
+
+.comment {
+    width: 681px;
+    height: 471px;
+    top: 3776px;
+    left: 747px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.dame {
+    width: 1372px;
+    height: 472px;
+    top: 5229px;
+    left: 78px;
+    border-radius: 10px;
+}
+
+.contact {
+    width: 395.74px;
+    height: 53.07px;
+    top: 6068.75px;
+    left: 558px;
+}
+/* Highlights */
+.nav li a.active {
+    color: var(--active_color);
+    font-weight: bold;
+}
+/* Arranging premium part */
+.button-container {
+    display: inline-block;
+    background-color: var(--active_color);
+    padding: 20px;
+    transform: translateX(-40px);
+    width: 88px;
+    height: 20px;
+    top: 24px;
+    left: 58px;
+}
+
+.button {
+    display: block;
+    color: #FFFFFF;
+    /* Set the text color to white */
+    font-family: var(--font-inter);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    /* Adjust the line-height to remove extra space */
+    text-align: center;
+    /* Center the text */
+    border: none;
+    /* Remove the border */
+    background-color: transparent;
+    /* Set the background color to transparent */
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.combat {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+.line1 {
+    width: 674px;
+    height: 101px;
+    left: 135px;
+    bottom: auto;
+    font-family: var(--font-IBM);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.line2 {
+    width: 283px;
+    height: 24px;
+    bottom: auto;
+    left: 141px;
+    font-family: var(--font-IBM);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.text-container {
+    margin-left: 10px;
+}
+footer{
+    background-color: var(--active_color);
+    margin: -5px;
+}
+.Logo img {
+    width: 54.46px;
+    height: 53.07px;
+    top: 6068.75px;
+    left: 558px;
+    text-align: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog4 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  

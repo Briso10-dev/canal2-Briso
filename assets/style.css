@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap&subset=hebrew');
 
+/* default configurations */
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+/* variables configurations */
 :root {
     --primary_color: #618264;
     --active_color: #79AC78;
@@ -10,33 +25,23 @@
     --color-textside: #443434;
 }
 header {
-    width: 100%;
-    height: 6rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 header button {
     width: 88px;
     height: 20px;
-    top: 24px;
-    left: 58px;
     font-family: var(--font-inter);
     background: var(--primary-color);
     font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    background: #FFFFFF;
-    border: none;
+    text-align: center;
 }
 header ul {
-    margin: 0;
-    padding: 0;
     display: flex;
+    justify-content: center ;
+    gap: 8rem;
     align-items: center;
-    justify-content: space-between;
     list-style: none;
     height: 100%;
     width: 50rem;
